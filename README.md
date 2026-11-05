@@ -9,21 +9,6 @@ The repository holds the complete analysis, from raw reads to every figure and t
 reported in the manuscript (`results/recoverability/v1/`). Raw reads and reference genomes are public
 and are not included. One script downloads them (see [Data](#data)).
 
-## Contents
-
-- [Approach](#approach)
-- [Repository layout](#repository-layout)
-- [Installation](#installation)
-- [Quick start without raw data](#quick-start-without-raw-data)
-- [Data](#data)
-- [Reproducing the full analysis](#reproducing-the-full-analysis)
-- [Analysis steps](#analysis-steps)
-- [Methods as implemented](#methods-as-implemented)
-- [Results](#results)
-- [Configuration](#configuration)
-- [Tests](#tests)
-- [Provenance](#provenance)
-- [Citation](#citation)
 
 ## Approach
 
