@@ -1,0 +1,28 @@
+# Conda environment for the full pipeline (alignment -> analysis -> figures).
+#
+#   conda env create -f environment.yml        # or let scripts/remote/bootstrap.sh do it
+#
+# Pinned to the minor versions the v1 results were produced with.  PyTorch is
+# NOT listed here: bootstrap.sh installs the CUDA build when an NVIDIA GPU is
+# present and the much smaller CPU build otherwise.
+name: utrscan
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.12
+  - numpy=2.2
+  - scipy=1.16
+  - matplotlib=3.10
+  - scikit-learn=1.8
+  - openpyxl
+  - psutil
+  - bowtie2=2.5
+  - viennarna=2.7
+  - cutadapt=5
+  - sra-tools>=3       # download_srrs.sh: prefetch + fasterq-dump
+  - parallel           # download_srrs.sh: GNU parallel
+  - pigz               # download_srrs.sh: parallel gzip
+  - curl
+  - pip

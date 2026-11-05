@@ -1,0 +1,11 @@
+numpy>=2.2,<2.3
+scipy>=1.16,<1.17
+matplotlib>=3.10,<3.11
+scikit-learn>=1.8,<1.9
+openpyxl
+psutil
+torch>=2.5  
+
+cutadapt>=5.0
+
+ViennaRNA>=2.7

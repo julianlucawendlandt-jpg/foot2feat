@@ -1,0 +1,15 @@
+/fastq
+*.zip
+/sratoolkit.3.4.1-win64
+__pycache__/
+bin/
+cache/
+work/
+ref/
+/downloads
+/ref
+.bootstrap_ok
+results/**/.done/
+*.lock
+/results
+*.tgz
