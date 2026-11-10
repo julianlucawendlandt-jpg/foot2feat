@@ -484,7 +484,3 @@ PyTorch 2.14.1 (CUDA 13.0), ViennaRNA 2.7.2 and matplotlib 3.10.9, with bowtie2 
 `environment.yml`. `ref/download_manifest.json`, written by the download, records the URL, size and
 checksum of every reference file.
 
-## Citation
-
-If you use this code or these results, please cite the *Foot2Feat* manuscript (RECOMB 2027). The full
-reference will be added on publication.
